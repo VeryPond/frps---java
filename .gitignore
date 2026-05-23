@@ -1,0 +1,25 @@
+# === Maven ===
+target/
+*.jar
+*.war
+*.class
+
+# === IDE ===
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Frps binary ===
+# frps 二进制文件体积大且平台相关，
+# 推荐手动下载放置，不提交到 git
+bin/frps
+bin/*.exe

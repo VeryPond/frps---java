@@ -1,1 +1,21 @@
+# frps 配置文件
+# 完整配置参考: https://github.com/fatedier/frp#configuration
+
+# frps 监听端口（必填）
 bindPort = 7000
+
+# 如需更多配置（如 Dashboard、TLS 等），取消注释并按需修改：
+#
+# # Dashboard 管理界面
+# webServer.addr = "0.0.0.0"
+# webServer.port = 7500
+# webServer.user = "admin"
+# webServer.password = "admin"
+#
+# # 认证令牌（客户端需一致）
+# auth.token = "your-token-here"
+#
+# # 日志配置
+# log.to = "console"
+# log.level = "info"
+# log.maxDays = 3
